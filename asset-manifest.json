@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EMP.git/static/css/main.8237c671.css",
+    "main.js": "/EMP.git/static/js/main.c728c147.js",
+    "static/js/787.afb02e6f.chunk.js": "/EMP.git/static/js/787.afb02e6f.chunk.js",
+    "index.html": "/EMP.git/index.html",
+    "main.8237c671.css.map": "/EMP.git/static/css/main.8237c671.css.map",
+    "main.c728c147.js.map": "/EMP.git/static/js/main.c728c147.js.map",
+    "787.afb02e6f.chunk.js.map": "/EMP.git/static/js/787.afb02e6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8237c671.css",
+    "static/js/main.c728c147.js"
+  ]
+}
