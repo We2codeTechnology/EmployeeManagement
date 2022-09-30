@@ -120,7 +120,7 @@ const navigator=useNavigate();
 
           <main role="main" className="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4 salarylistbox_table">
             <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom salarylistbody_table">
-              <h1 className="h1"><b>Salary Managementttttttttttttt</b></h1>
+              <h1 className="h1"><b>Salary Management</b></h1>
               <div className="btn-toolbar mb-2 mb-md-0">
                 <div className="btn-group mr-2">
                 <Link to='/Salary_history' className="nav-link">
