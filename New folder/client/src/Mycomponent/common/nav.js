@@ -16,9 +16,9 @@ function Navv(props) {
 
 <>
 
-<Route path="/" element={<Dashboard/>} />
+<Route path="/EmployeeManagement/" element={<Dashboard/>} />
      
-      <Route path="/Salary_list" element={<Salary_list />} />
+      <Route path="/EmployeeManagement/Salary_list" element={<Salary_list />} />
 
 
 </>
