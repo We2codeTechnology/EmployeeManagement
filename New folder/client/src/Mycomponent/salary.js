@@ -1,6 +1,4 @@
-
 import { Link, useNavigate } from "react-router-dom";
-import { Nav } from 'react-bootstrap';
 import DataTable from 'react-data-table-component';
 import {  useState } from 'react';
 import Axios from 'axios';
@@ -20,8 +18,7 @@ const ExpandedComponent = ({ data }) => <div className="dropdown_detail">
 <h6>{moment(data.dob).format('DD-MMMM-YYYY')}</h6>
 </div>
 </div>;
-function Salary_list(props) {
-  const [employeeList, setEmployeeList] = useState([]);
+function Salarylist(props) {
   const [salaryList, setsalaryList] = useState([]);
   const [attendmonth, setattendmonth] = useState(
     moment().format(`YYYY-MM-DDT00:00:00+00:00`)
@@ -45,9 +42,6 @@ function Salary_list(props) {
  
   };
 
-  // date
- 
-  let momentmonth = moment(attendmonth, "YYYY-MM").daysInMonth();
 
   let firstdate = moment(attendmonth, "YYYY-MM")
     .startOf("month")
@@ -64,7 +58,7 @@ function Salary_list(props) {
   };
   useEffect(() => {
     getEmployees();
-  }, [attendmonth]);
+  });
   const salarygenereate =(e)=>{
     // let arr = e.target.value.split(',')
   let staffidd = e.target.value;
@@ -166,4 +160,4 @@ const navigator=useNavigate();
   );
 }
 
-export default Salary_list;
+export default Salarylist;
