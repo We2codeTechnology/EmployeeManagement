@@ -1,12 +1,16 @@
 import './App.css';
+import Navv from './Mycomponent/common/nav';
 
 
 
-import Dashboard from './dashboard';
+// import Dashboard from './Mycomponent/dashboard';
+// import Salary from './Mycomponent/salary';
 function App() {
   return (
     <div className="App">
-      <Dashboard/>
+      {/* <Dashboard/>
+      <Salary/> */}
+      <Navv/>
    
     </div>
   );
