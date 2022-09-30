@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Salarylist from "../salary";
-import Dashboard from "../dashboard";
 
 
 function Navv(props) {
@@ -12,9 +11,8 @@ function Navv(props) {
 
 <>
 
-<Route path="/EmployeeManagement/" element={<Dashboard/>} />
+<Route path="/EmployeeManagement/" element={<Salarylist/>} />
      
-      <Route path="/EmployeeManagement/Salary_list" element={<Salarylist />} />
 
 
 </>
