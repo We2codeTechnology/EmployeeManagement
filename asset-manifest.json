@@ -1,15 +1,15 @@
 {
   "main.css": "/EmployeeManagement/static/css/main.6a66613d.chunk.css",
-  "main.js": "/EmployeeManagement/static/js/main.47c4efec.chunk.js",
-  "main.js.map": "/EmployeeManagement/static/js/main.47c4efec.chunk.js.map",
+  "main.js": "/EmployeeManagement/static/js/main.e295e532.chunk.js",
+  "main.js.map": "/EmployeeManagement/static/js/main.e295e532.chunk.js.map",
   "static/js/1.084b5a10.chunk.js": "/EmployeeManagement/static/js/1.084b5a10.chunk.js",
   "static/js/1.084b5a10.chunk.js.map": "/EmployeeManagement/static/js/1.084b5a10.chunk.js.map",
-  "static/js/2.6f2be0db.chunk.js": "/EmployeeManagement/static/js/2.6f2be0db.chunk.js",
-  "static/js/2.6f2be0db.chunk.js.map": "/EmployeeManagement/static/js/2.6f2be0db.chunk.js.map",
+  "static/js/2.f196c268.chunk.js": "/EmployeeManagement/static/js/2.f196c268.chunk.js",
+  "static/js/2.f196c268.chunk.js.map": "/EmployeeManagement/static/js/2.f196c268.chunk.js.map",
   "runtime~main.js": "/EmployeeManagement/static/js/runtime~main.3f7538d2.js",
   "runtime~main.js.map": "/EmployeeManagement/static/js/runtime~main.3f7538d2.js.map",
   "static/css/main.6a66613d.chunk.css.map": "/EmployeeManagement/static/css/main.6a66613d.chunk.css.map",
   "index.html": "/EmployeeManagement/index.html",
-  "precache-manifest.30cd24954b3406195bb1fcd6434930f6.js": "/EmployeeManagement/precache-manifest.30cd24954b3406195bb1fcd6434930f6.js",
+  "precache-manifest.1bc0b3266f02455fc8c1416d65d90714.js": "/EmployeeManagement/precache-manifest.1bc0b3266f02455fc8c1416d65d90714.js",
   "service-worker.js": "/EmployeeManagement/service-worker.js"
 }
