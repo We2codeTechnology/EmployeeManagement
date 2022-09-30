@@ -4,8 +4,6 @@ import { Link} from "react-router-dom";
 import Axios from "axios";
 import moment from "moment";
 import { useNavigate } from "react-router-dom";
-import Sidebar from '../common/Sidebar';
-import Header from '../common/Header';
 function Generatesalary(props) {
   let navigate = useNavigate(); 
 
@@ -201,11 +199,9 @@ console.log("deductionn"+deductionn)
 return (
     <>
      
-     <Header/>
       <div className="container-fluid">
 
         <div className="row">
-          <Sidebar/>
           <main role="main" className="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
             <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
               <h1 className="h1"><b>Generate Salary</b></h1>
@@ -216,10 +212,6 @@ return (
                       View
                     </button>
                   </Link>
-                  {/* <Link to='/Salary_slip' className="nav-link">
-
-                  <button className="btn btn-sm btn-outline-secondary">Salary Slip</button>
-                  </Link> */}
                 </div>
               </div>
             </div>
