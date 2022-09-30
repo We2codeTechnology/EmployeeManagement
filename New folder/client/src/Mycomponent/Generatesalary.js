@@ -1,7 +1,5 @@
 /* eslint-disable jsx-a11y/no-redundant-roles */
 import React, { useState, useEffect } from "react";
-import "../../styles/salary/Generatesalary.css";
-import { Nav } from "react-bootstrap";
 import { Link} from "react-router-dom";
 import Axios from "axios";
 import moment from "moment";
