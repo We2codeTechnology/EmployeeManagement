@@ -61,12 +61,12 @@ const handleClear = () => {
 //
 const getEmployees = () => {
   Axios.get(
-    `http://localhost:3001/attendancehistory/${firstdate}/${lastdate}`
+    `https://apnaorganicstore.in/index/attendancehistory/${firstdate}/${lastdate}`
   ).then((response) => {
     setattendancedata(response.data);
   });
   Axios.get(
-    `http://localhost:3001/getholiday/${firstdate}/${lastdate}`
+    `https://apnaorganicstore.in/index/getholiday/${firstdate}/${lastdate}`
   ).then((response) => {
     setholidaycount(response.data[0]);
   });
@@ -90,11 +90,10 @@ useEffect(() => {
       };
 //       let countday =[];
 // {holidaycount.map((datee)=>{
-// if(moment(datee.holiday_date,'YYYY-MM-DD').format('dddd') != 'Sunday' && datee.status === 1 && datee.is_holiday === 1){
+// if(moment(datee.holiday_date,'YYYY-MM-DD').format('dddd') != 'Sunday' && datee.status === 1 && datee.is_holiday === 1 ){
 //   countday.push(moment(datee.holiday_date,'YYYY-MM-DD'))
 // }
 // })}
-
 
       const columns = [
         {
@@ -173,7 +172,7 @@ useEffect(() => {
     //   // 
 
   }
-let wdays = momentmonth - holidaycount.count;
+let wdays = momentmonth -  holidaycount.count;
 
     return (
         <div>
